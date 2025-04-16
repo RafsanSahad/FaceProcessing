@@ -5,8 +5,8 @@ from concurrent.futures import ProcessPoolExecutor
 from deepface import DeepFace
 
 # Configuration
-INPUT_DIR = r"C:\Users\ReX\Desktop\Face"  # Notice the 'r' before the string
-OUTPUT_DIR = r"C:\Users\ReX\Desktop\Organised"  # Apply to all Windows paths
+INPUT_DIR = r""  # Notice the 'r' before the string
+OUTPUT_DIR = r""  # Apply to all Windows paths
 IMAGE_EXTS = ('.jpg', '.jpeg', '.png', '.webp')
 MAX_WIDTH = 640  # Resize larger images for faster processing
 DETECTOR_BACKEND = 'opencv'  # Fastest CPU-based detector
